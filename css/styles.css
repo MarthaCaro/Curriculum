@@ -1,0 +1,55 @@
+
+.fotodeperfil img{
+    border-radius: 50%;
+    border: 3px solid gray;
+    width: 161px;
+    height: 166px;
+}
+
+
+header .fotodeperfil{
+    display: inline-block;
+    width:15%;
+    vertical-align: top;
+}
+
+header .arriba{
+    display: inline-block;
+    width:50%;
+    vertical-align: top;
+    margin:0;
+    padding: 0;
+}
+
+
+h1{
+    text-transform: uppercase;
+    background-color: gray;
+    text-align: center
+}
+
+h2{
+    font-weight: bold;
+    background-color: gray;
+}
+
+ul.datos span{
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
+.formacion span{
+    font-weight: bold;
+    display: inline-block;
+    width: 10%;
+    
+}
+
+.formacion p{
+  display: inline-block;
+  width: 40%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
