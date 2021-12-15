@@ -2,10 +2,18 @@
 .fotodeperfil img{
     border-radius: 50%;
     border: 3px solid gray;
-    width: 161px;
-    height: 166px;
+    width: 171px;
+    height: 176px;
 }
 
+.contenedor{
+    display: flex;
+    background-color: rgb(205,205,205);
+}
+
+header div ul li {
+    margin-top: 8px;
+}
 
 header .fotodeperfil{
     display: inline-block;
@@ -15,23 +23,28 @@ header .fotodeperfil{
 
 header .arriba{
     display: inline-block;
-    width:50%;
+    width:85%;
     vertical-align: top;
     margin:0;
     padding: 0;
+    
 }
+
+header div ul li span{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+
 
 
 h1{
     text-transform: uppercase;
-    background-color: gray;
-    text-align: center
+    margin-bottom: 0px;
 }
 
-h2{
-    font-weight: bold;
-    background-color: gray;
-}
+
 
 ul.datos span{
     font-weight: bold;
@@ -48,8 +61,30 @@ ul.datos span{
 
 .formacion p{
   display: inline-block;
-  width: 40%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  width: 70%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
+span .negrita{
+
+    font-weight: bold;
+}
+
+.fuente{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: rgb(205,205,205);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sobremi{
+    background-color: rgb(205,205,205);
+    margin: 2% 20%  2% 1%;
+    font-size: 24px;
+    font-style: italic;
+    padding: 1%;
+}
